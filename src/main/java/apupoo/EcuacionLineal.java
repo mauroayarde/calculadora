@@ -4,6 +4,8 @@ public class EcuacionLineal extends Ecuacion{
     private double a;
     private double b;
 
+    
+
 
     @Override
     public double resolverEcuacion(double x){
@@ -23,6 +25,11 @@ public class EcuacionLineal extends Ecuacion{
     }
 
     public void setB(double b) {
+        this.b = b;
+    }
+
+    public EcuacionLineal(double a, double b) {
+        this.a = a;
         this.b = b;
     }
 
